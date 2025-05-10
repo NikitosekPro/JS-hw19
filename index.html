@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/sctyle.css">
+</head>
+<body>
+
+    <form>
+    <p>Choose a color:</p>
+    <label>
+    <input class="color-red" type="radio" name="color" value="red"/>
+    Red
+    </label>
+    <label>
+    <input class="color-white" type="radio" name="color" value="white" />
+    White
+    </label>
+    <label>
+    <input class="color-green" type="radio" name="color" value="green" />
+    Green
+    </label>
+</form>
+
+
+    <input type="text" placeholder="Ваше ім'я?" id="name-input" />
+    <h1>Привіт, <span id="name-output">незнайомець</span>!</h1>
+
+    <input
+    type="text"
+    id="validation-input"
+    data-length="6"
+    placeholder="Введи 6 символів"
+/>
+
+
+    <input id="font-size-control" type="range" min="10" max="100" value="16" />
+    <br />
+    <span id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deserunt tenetur expedita dicta natus iusto praesentium debitis sit ipsa atque omnis asperiores tempore, eum laudantium? Sed et delectus incidunt optio!</span>
+
+    <script type="module" src="./js/script.js"></script>
+</body>
+</html>
